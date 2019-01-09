@@ -1,2 +1,6 @@
 # StatURL
-get top 100 of the highest frequency from massive URLs
+get the top 100 high-frequency URLs in approximately 100G URL files
+
+## Algorithm Description
+1. hash urls into different files (one bucket one file)
+2. 
