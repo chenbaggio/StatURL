@@ -11,16 +11,16 @@ get the top 100 high-repeatability URLs in approximately 100G URL files
 2. not considering sampling to decide which method to apply hash or just sort ,we assume usrl is Low repeatability
 
 ## components
-1. URLGen.py - generate url file
-./URLGen.py DataFile
-DataFile - the file to contain URLs
+1. URLGen.py - generate url file 
+./URLGen.py DataFile 
+DataFile - the file to contain URLs 
 
 2. URLStat - stat url and get top n high-repeatability URLs(default top 100)
-URLStat URLFile TmpPath [topN]
+URLStat URLFile TmpPath [topN] 
 
-URLFile - the file that contains the URLs
-TmpPath - the path that store intermediate results
-topN - not implemnet
+URLFile - the file that contains the URLs 
+TmpPath - the path that store intermediate results 
+topN - not implemnet 
 
 ## compile 
 1. git clone https://github.com/chenbaggio/StatURL.git 
