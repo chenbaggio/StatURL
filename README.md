@@ -26,3 +26,7 @@ URLStat URLFile TmpPath [topN]
 2. cd src && ./make.sh
 3. run URLStat 
 
+## testing  OS environment
+
+linux redhat 7.2 
+
