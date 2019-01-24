@@ -3,7 +3,7 @@ get the top 100 high-repeatability URLs in approximately 100G URL files
 
 ## Algorithm Description
 1. hash urls into different files (one bucket one file), 1G memory handle 100G file, bucket number can set 128 or larger, here take 256
-2. select top 100 from every bucket file (count, sort and merge with Previous results)
+2. select top 100 from every bucket file (count, sort and merge with Previous results, top N heap or multimap)
 3. meger all top 100 files and select the global top 100
 
 ## Prerequisite
